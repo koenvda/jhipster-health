@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "gezondheid",
+    "packageName": "be.kvda.gezondheid",
+    "packageFolder": "be/kvda/gezondheid",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "5845d1e3a3bcd85e6b6fb5554c05c37544bd7660",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
